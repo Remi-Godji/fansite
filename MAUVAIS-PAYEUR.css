@@ -1,0 +1,388 @@
+/* Styles généraux */
+body {
+    font-size: 16px; 
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px; 
+    }
+}
+
+
+
+
+
+.center {
+    text-align: center;
+}
+
+html {
+    font-family: 'Roboto Mono', monospace;
+}
+
+body {
+    padding-left: 10px; 
+    padding-right: 10px;
+}
+
+.white { 
+    color: white;
+}
+
+/* Styles pour le Fansite */
+
+.title-fansite h1 {
+    font-family: 'Dancing Script', cursive;
+}
+
+
+
+.fansite-body {
+    background-image: url('images/la feve fon de site web.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.title-encadrement {
+    border: 2px solid #000000; 
+    padding: 10px; 
+    border-radius: 15px; 
+    background-color: #000000; 
+}
+
+.horizontal-menu {
+    list-style: none; 
+    display: flex; 
+    justify-content: space-between; 
+}
+
+.horizontal-menu li {
+    margin: 14px; 
+    font-size: 11px;
+}
+
+.horizontal-menu li a {
+    color: rgb(255, 255, 255); 
+    text-decoration: none;
+}
+
+header {
+    margin-bottom: 200px; 
+}
+
+main {
+    margin-top: 200px; 
+}
+
+.image-and-title {
+    overflow: hidden; 
+    margin-bottom: 20px; 
+}
+
+.image-and-title img {
+    float: left; 
+    margin-right: 60px; 
+}
+
+.spacer {
+    height: 300px; 
+}
+
+.image-links a {
+    margin-right: 50px; 
+}
+
+.image-links a:last-child {
+    margin-right: 0; 
+}
+
+.spacer2 {
+    height: 40px;
+}
+
+.h2 h2 { 
+    font-size: 40px; 
+}
+
+/* Styles pour Actualite.html */
+
+.actualite-body {
+    background-image: url('images/La-Feve\ wallpaper\ actualité.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.title-encadrement-actualité {
+    border: 2px solid #000000; 
+    padding: 10px; 
+    border-radius: 15px; 
+    background-color: #000000; 
+}
+
+.white-actualité {
+    color: white;
+}
+
+.surlignage-lien-actualite a {
+    color: white;
+    text-decoration: none;
+}
+
+.title-encadrement-actualité2 {
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.spacer-actualité {
+    height: 160px;
+}
+
+.surlignage-lien-actualite2 a {
+    color: black;
+    text-decoration: none;
+}
+
+/* Styles pour Realisations.html */
+
+.title-encadrement-realisations {
+    border: 2px solid #000000; 
+    padding: 10px; 
+    border-radius: 15px; 
+    background-color: #000000; 
+}
+.Realisations-body {
+    background-image: url('images/la\ feve\ fond\ de\ site\ realisations.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.white-realisations {
+    color: white;
+}
+
+.white-realisations h2 {
+    color: rgb(0, 230, 4);
+}
+
+.realisations-image {
+    display: flex;
+}
+
+.realisations-image img {
+    width: 300px;
+    height: auto; 
+    margin-right: 80px; 
+}
+
+.realisations-image img:last-child {
+    margin-right: 0;
+}
+
+.inline-heading-realisations {
+    display: inline; 
+    margin-right: 300px; 
+}
+.inline-heading-realisations2 {
+    display: inline;
+    margin-right: 170px;
+}
+.inline-heading-realisations3 {
+    display: inline;
+    margin-right: 240px;
+}
+.inline-heading-realisations4 {
+    display: inline; 
+    margin-right: 290px; 
+}
+
+.with-margin-realisations {
+    margin-bottom: 30px;
+}
+.spacer2 {
+    height: 40px;
+}
+.spacer3 {
+    height: 200px; 
+}
+.center {
+    text-align: center;
+}
+.surlignage-lien-realisations a {
+    color: white;
+    text-decoration: none;
+}
+
+/*Styles pour événements*/
+
+.title-encadrement-evenements {
+    border: 2px solid #000000; 
+    padding: 10px; 
+    border-radius: 15px; 
+    background-color: #000000; 
+    }
+    .surlignage-lien-evenements a {
+        color: white;
+        text-decoration: none;
+    }
+.Evenements-body
+{
+    background-image: url('images/photo\ concert.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;   
+}
+/*Styles pour photosvideos*/
+ 
+
+        .title-encadrement-photosvideos {
+            border: 2px solid #000000; 
+            padding: 10px; 
+            border-radius: 15px; 
+            background-color: #000000; 
+            }
+            .surlignage-lien-photosvideos a {
+                color: white;
+                text-decoration: none;
+            }
+            
+            .photosvideos-body {
+     background-image: url('images/wallpaper\ photos\ videos.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+           background-position: center;
+           background-attachment: fixed;   
+             
+            }
+
+            .main-photosvideos 
+            .main-photosvideos h2
+            .main-photosvideos img
+            .main-photosvideos video {
+                    display: inline-block;
+                    margin-right: 40px; 
+                    
+                }
+            
+                .title-encadrement-photosvideos2 {
+                    border: 2px solid rgba(0, 0, 0, 0.5);
+                    padding: 10px;
+                    border-radius: 15px;
+                    background-color: rgba(0, 0, 0, 0.5);
+                }
+
+         /*Styles pour autre sites fans*/   
+            
+         .title-encadrement-autre-sites-fans {
+            border: 2px solid #000000; 
+            padding: 10px; 
+            border-radius: 15px; 
+            background-color: #000000; 
+            }
+            .surlignage-lien-autre-sites-fans a {
+                color: white;
+                text-decoration: none;
+            }
+            
+            .autre-sites-fans-body {
+     background-image: url('images/autres\ site\ fans.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+           background-position: center;
+           background-attachment: fixed;   
+             
+            }
+
+            .spacer2 {
+                height: 40px;
+            }
+
+
+            
+            .liste-sans-puces {
+                list-style: none;
+            }
+
+        /* Styles pour  mes reseauxsociaux*/
+
+        .title-encadrement-reseaux-sociaux {
+            border: 2px solid #000000; 
+            padding: 10px; 
+            border-radius: 15px; 
+            background-color: #000000; 
+            }
+            .surlignage-lien-reseaux-sociaux1 a {
+                color: white;
+                text-decoration: none;
+            }
+
+            .surlignage-lien-reseaux-sociaux a {
+                color: white;
+                text-decoration: none;
+                margin-right: 35px;
+            }
+            
+            .reseaux-sociaux-body {
+            background-image: url('images/La_Feve\ meme.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+           background-position: center;
+           background-attachment: fixed;   
+             
+            }
+
+            .spacer2 {
+                height: 40px;
+            }
+
+
+            
+            .liste-sans-puces {
+                list-style: none;
+            }
+            
+         
+            .white-reseaux-sociaux {
+                color: white;
+            }
+
+            /*Styles pour contact */
+
+
+            .title-encadrement-contact {
+            border: 2px solid #000000; 
+            padding: 10px; 
+            border-radius: 15px; 
+            background-color: #000000; 
+            }
+        
+            .contact-body {
+                background-color: black;
+
+            }
+
+            .white-reseaux-sociaux {
+                color: white;
+                padding-left: 80px;
+            }
+
+            .padding-left {
+            padding-left: 400px;
+            }
+           
+           
+            .spacer-contact {
+                height: 90px;
+            }
+
+            .surlignage-lien-contact a {
+                color: white;
+                text-decoration: none;
+            }
